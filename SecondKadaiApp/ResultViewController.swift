@@ -11,12 +11,13 @@ import UIKit
 class ResultViewController: UIViewController {
   var name:String = ""
     @IBOutlet weak var namelabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
-    
-namelabel.text = "こんにちは　\(name)　さん"
+        
+        namelabel.text = "こんにちは　\(name)　さん"
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
